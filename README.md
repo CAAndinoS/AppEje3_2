@@ -1,4 +1,4 @@
-Tarea 3.1
+Tarea 3.2
 
 Integrantes
 
@@ -10,6 +10,6 @@ Integrantes
 - Luis Francisco Herrera--201930060229
 - Nelson Daniel Herrera Tejeda--201910040249
 
--Link de github: 
+-Link de github: https://github.com/CAAndinoS/AppEje3_2
 
--Link de Video: 
+-Link de Video: https://drive.google.com/file/d/1TH1pifNUzbUmDyMr7-u4KY_4YMsUksbk/view?usp=sharing
