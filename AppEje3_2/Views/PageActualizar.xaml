@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewModels="clr-namespace:AppEje3_2.ViewModels"
+             x:Class="AppEje3_2.Views.PageActualizar">
+    <ContentPage.BindingContext>
+        <viewModels:AlumnosViewModels />
+    </ContentPage.BindingContext>
+
+    <StackLayout>
+        <Image x:Name="foto" WidthRequest="100" HeightRequest="200" Source="{Binding foto}" />
+        <Button x:Name="btnfoto" Text="Capturar Imagen" Clicked="btnfoto_Clicked" />
+        <Entry x:Name="nom" Text="{Binding nombres}" Placeholder="Nombres" />
+        <Entry x:Name="ape" Text="{Binding apellidos}" Placeholder="Apellidos" />
+        <Entry x:Name="sex" Text="{Binding sexo}" Placeholder="Sexo" />
+        <Entry x:Name="dire" Text="{Binding direccion}" Placeholder="Dirección" />
+
+        <!-- Agregar controles adicionales para otros campos si es necesario -->
+
+        <Button Text="Actualizar" Command="{Binding AlumnUpdate}" Clicked="Button_Clicked" />
+
+    </StackLayout>
+</ContentPage>
